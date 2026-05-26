@@ -1,0 +1,9 @@
+# Terminal 1 — Backend
+cd "C:\Users\Janar\OneDrive\Desktop\Festival Planner Ai\backend"
+pip install -r requirements.txt
+py -3.11 -m uvicorn main:app --reload --port 8000
+
+# Terminal 2 — Frontend
+cd "C:\Users\Janar\OneDrive\Desktop\Festival Planner Ai\frontend"
+npm install
+npm start
